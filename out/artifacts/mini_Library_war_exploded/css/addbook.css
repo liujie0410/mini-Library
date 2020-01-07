@@ -1,0 +1,46 @@
+.bookinfo{
+	position:absolute;
+	width:650px;
+	margin-top:50px;
+	margin-left:300px;
+	color: rgba(0, 0, 0, 0.76);
+}
+
+.title{
+	margin-left: 180px;
+	font-size:28px;
+	font-family:STSong;
+	color: rgba(10, 3, 0, 0.78);
+}
+
+input{
+	width:360px;
+	margin: 0;
+	background-color: rgba(238, 239, 240, 0.5);
+}
+
+.error{
+	color:red;
+}
+
+.button{
+	text-align:center;
+}
+
+textarea{
+	width:360px;
+	height:200px;
+	resize:none;
+	background-color: rgba(238, 239, 240, 0.5);
+}
+
+.infotitle{
+	font-family:"宋体";
+	font-size:20px;
+}
+
+
+
+
+
+

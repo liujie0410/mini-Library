@@ -1,0 +1,143 @@
+.background{
+    position: absolute;
+    width: 1420px;
+    height: 700px;
+    top:207px;
+    opacity: 0.8;
+    background-image:url("/image/back.jpg");
+    background-size: 1420px 820px;
+}
+
+.topic{
+    position:absolute;
+    width: 1420px;
+    height:160px;
+}
+.navbar{
+    position: absolute;
+    width: 270px;
+    height: 680px;
+    background-color:rgba(136, 144, 151, 0.5);
+    top: 207px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#nav{
+    margin:10px;
+    text-align:center;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.title0{
+    width: 250px;
+    text-align:center;
+    margin-left:0px;
+    padding:10px 9px 8px 0.5em;
+    border-left:0px solid #7a756e;
+    border-right:1px solid #7a756e;
+    border-top: 0px solid #7a756e;
+    border-bottom:1px solid #7a756e;
+    background-color:rgba(188, 193, 195, 0.5);
+    color:#000000;
+    font-size: 18px;
+    font-family: "幼圆";
+}
+.title1{
+    background:#888;
+    color:#000;
+    padding:10px 9px 8px 0.5em;
+    border-left:0px solid #7a756e;
+    border-right:1px solid #7a756e;
+    border-top: 0px solid #7a756e;
+    border-bottom:1px solid #7a756e;
+    cursor:pointer;
+    width: 250px;
+    font-size: 18px;
+    font-family: "幼圆";
+    text-align:center;
+}
+.content ul{
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #336699;
+}
+.content li{
+    display: block;
+    color:#336699;
+    background:#b1b1ae;
+    width: 189px;
+    height: 24px;
+    text-align:center;
+    padding:12px 0px 0px 0.1em;
+    border-bottom:1px solid #7a756e;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: STSong;
+    font-size: 18px;
+
+}
+
+.footer{
+    position:absolute;
+    margin:0px;
+    margin-top:878px;
+    width: 1420px;
+    height: 22px;
+    background-color:rgba(59, 49, 35, 0.5);
+    color:white ;
+    font-size:16px;
+    text-align:center;
+    font-family:STSong;
+}
+
+.mianpart{
+    position:absolute;
+    top:207px;
+    background-color:rgba(208, 209, 216, 0.5);
+    left:278px;
+    width:1150px;
+    height:680px;
+    font-family:STSong;
+}
+
+
+/* 下面是搜索框样式 */
+.searchBox{
+    width: 300px;
+    height: 35px;
+    margin-left:50px;
+    border: 1px solid rgba(175, 147, 111, 0.5);
+    outline: hidden;
+    border-radius: 2px;
+    position: relative;
+    top:150px;
+}
+
+.sinputBox{
+    border: none;
+    width: 234px;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    padding-left: 10px;
+    /* 改变光标的颜色 */
+    caret-color:rgba(175, 147, 111, 0.5);
+    font-size: 14px;
+}
+
+.searchBtn{
+    width: 65px;
+    height: 35px;
+    border: none;
+    position: absolute;
+    right: 0;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background-color:rgba(117, 73, 48, 0.5);
+}
+/* 鼠标滑过按钮时背景色改变 */
+.searchBtn:hover{
+    background-color: rgba(71, 37, 23, 0.5);
+}

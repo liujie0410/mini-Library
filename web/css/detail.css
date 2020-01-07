@@ -1,0 +1,38 @@
+.title{
+	margin-left: 100px;
+	font-size:28px;
+	font-family:STSong;
+	color: rgba(10, 3, 0, 0.78);
+}
+
+.detail{
+	position:absolute;
+	width:600px;
+	margin-top:50px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:300px;
+	color: rgba(10, 3, 0, 0.95);
+}
+.infotitle{
+	font-family:"宋体";
+	font-size:20px;
+	color: rgba(10, 3, 0, 0.78);
+}
+
+.info{
+	font-family:"宋体";
+	font-size:18px;
+}
+
+.button{
+	text-align:center;
+}
+
+textarea{
+	font-family:"宋体";
+	width:360px;
+	height:200px;
+	resize:none;
+	background-color: rgba(238, 239, 240, 0.5);
+}

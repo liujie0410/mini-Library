@@ -1,0 +1,100 @@
+.welcome{
+	position:absolute;
+	width: 1420px;
+	height: 820px;
+}
+
+.loginform{
+	position:absolute;
+	margin-top:250px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:930px;
+	height:215px;
+	width:380px;
+	padding: 25px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Chineseword{
+	position:absolute;
+	margin-top:125px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:60px;
+	font-size:40px;
+	color:rgb(237, 196, 156);
+}
+
+.Englishword{
+	position:absolute;
+	margin-top:480px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:60px;
+	font-size:55px;
+	color:rgb(181, 109, 62);
+}
+
+.errorsubmit{
+	position:absolute;
+	margin-top:5px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:90px;
+	width:400px;
+	color:red;
+}
+
+#loginbutton{
+	margin:8px;
+	width:360px;
+	height:40px;
+	font-size:18px;
+	text-align:center;
+}
+
+#rightsize{
+	align:right;
+	color:white;
+	
+}
+
+#usernameinput{
+	margin:8px;
+	width:360px;
+	height:40px;
+	font-size: 14px;
+}
+
+#passwordinput{
+	margin:8px;
+	width:360px;
+	height:40px;
+	font-size: 14px;
+}
+
+#labellogin{
+	margin:8px;
+	position:absolute;
+	margin-left:116px;
+	margin-top:-10px;
+	text-align:center;
+	width:140px;
+	height:40px;
+	color:white;
+	font-size:20px;
+}
+
+.footer{
+	position:absolute;
+	margin:0px;
+	margin-top:790px;
+	width: 1420px;
+	height: 30px;
+	background-color:rgba(0,0,0,0.5);
+	color:white ;
+	font-size:16px;
+	text-align:center;
+	font-family:STSong;
+}

@@ -1,0 +1,67 @@
+<html>
+<head>
+    <script language = JavaScript>
+        function showmenu(id) {
+            var list = document.getElementById("list"+id);
+            var menu = document.getElementById("menu"+id)
+            if (list.style.display=="none") {
+                document.getElementById("list"+id).style.display="block";
+                menu.className = "title1";
+            }else {
+                document.getElementById("list"+id).style.display="none";
+                menu.className = "title0";
+            }
+        }
+    </script>
+<style>
+
+  .exp a{
+        text-decoration: none;
+        color: #000000;
+    }
+</style>
+
+</head>
+<body>
+<link rel="stylesheet" href="css/welcome.css"  type="text/css" />
+
+<nav class="navbar">
+<div class="exp" id="nav">
+
+    <div class="title0" id="menu1" onclick="showmenu('1')">首页</div>
+    <div id="list1" class="content" style="display:none">
+        <ul>
+            <li> <a href="main.jsp">首页</a></li>
+        </ul>
+    </div>
+
+    <div class="title0" id="menu2" onclick="showmenu('2')">图书管理</div>
+    <div id="list2" class="content" style="display:none">
+        <ul>
+            <li><a href="BookAction?action=getall">馆藏目录</a></li>
+            <li><a href="AddBook.jsp">添加书本</a></li>
+            <li><a href="BookAction?action=gettemp">预添加书本列表</a></li>
+        </ul>
+    </div>
+
+    <div class="title0" id="menu3" onclick="showmenu('3')">借阅管理</div>
+    <div id="list3" class="content" style="display:none">
+        <ul>
+            <li><a href="borrow.jsp">借书</a></li>
+            <li><a href="return.jsp">还书</a></li>
+            <li><a href="IOAction?action=getlog">图书借阅记录</a></li>
+        </ul>
+    </div>
+    <div class="title0" id="menu4" onclick="showmenu('4')">用户管理</div>
+    <div id="list4" class="content" style="display:none">
+        <ul>
+            <li><a href="ReaderAction?action=GetAllReader">权限管理</a></li>
+        </ul>
+    </div>
+
+</div>
+
+</nav>
+
+</body>
+</html>
